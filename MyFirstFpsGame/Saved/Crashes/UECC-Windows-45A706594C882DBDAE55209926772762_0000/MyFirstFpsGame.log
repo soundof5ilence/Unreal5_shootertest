@@ -1,0 +1,949 @@
+﻿Log file open, 10/17/22 16:34:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=10256)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MyFirstFpsGame
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" "E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/MyFirstFpsGame.uproject" -EpicPortal -epicusername=Sound0fSilence3 -epicuserid=35183c6867454a8a9cfc547ace35667c -epiclocale=en -epicsandboxid=ue""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (21H2) [10.0.19044.2130] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 3700X 8-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="36387506475e3c6a514028bdc4809124"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.217137
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-45A706594C882DBDAE55209926772762
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading Android ini files took 0.02 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.03 seconds
+LogConfig: Display: Loading Unix ini files took 0.03 seconds
+LogConfig: Display: Loading Windows ini files took 0.03 seconds
+LogConfig: Display: Loading TVOS ini files took 0.03 seconds
+LogConfig: Display: Loading Linux ini files took 0.04 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (21H2) [10.0.19044.2130] (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: AMD Radeon RX 6600 XT
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line:  -EpicPortal -epicusername=Sound0fSilence3 -epicuserid=35183c6867454a8a9cfc547ace35667c -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: F:/Unreal/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2022.10.17-14.34.38:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2022.10.17-14.34.38:228][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2022.10.17-14.34.38:228][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2022.10.17-14.34.38:228][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2022.10.17-14.34.38:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2022.10.17-14.34.38:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2022.10.17-14.34.38:229][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2022.10.17-14.34.38:229][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2022.10.17-14.34.38:235][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2022.10.17-14.34.38:246][  0]LogD3D12RHI: Aftermath initialized
+[2022.10.17-14.34.38:246][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.10.17-14.34.38:339][  0]LogD3D12RHI: Found D3D12 adapter 0: AMD Radeon RX 6600 XT (Max supported Feature Level 12_1, shader model 6.6)
+[2022.10.17-14.34.38:339][  0]LogD3D12RHI: Adapter has 8146MB of dedicated video memory, 0MB of dedicated system memory, and 16347MB of shared system memory, 2 output[s]
+[2022.10.17-14.34.38:353][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2022.10.17-14.34.38:353][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16347MB of shared system memory, 0 output[s]
+[2022.10.17-14.34.38:353][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.10.17-14.34.38:353][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.10.17-14.34.38:353][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2022.10.17-14.34.38:354][  0]LogHAL: Display: Platform has ~ 32 GB [34282221568 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.10.17-14.34.38:354][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2022.10.17-14.34.38:354][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2022.10.17-14.34.38:354][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.10.17-14.34.38:354][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2022.10.17-14.34.38:354][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Config/WindowsEditor/Editor.ini]
+[2022.10.17-14.34.38:354][  0]LogInit: Computer: RGB-GEBRUIKER
+[2022.10.17-14.34.38:354][  0]LogInit: User: ruben
+[2022.10.17-14.34.38:354][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.10.17-14.34.38:354][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.10.17-14.34.38:354][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2022.10.17-14.34.38:354][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2022.10.17-14.34.38:354][  0]LogMemory: Process Physical Memory: 285.54 MB used, 328.30 MB peak
+[2022.10.17-14.34.38:354][  0]LogMemory: Process Virtual Memory: 264.10 MB used, 270.44 MB peak
+[2022.10.17-14.34.38:354][  0]LogMemory: Physical Memory: 12363.94 MB used,  20330.14 MB free, 32694.07 MB total
+[2022.10.17-14.34.38:354][  0]LogMemory: Virtual Memory: 20221.84 MB used,  25272.24 MB free, 45494.07 MB total
+[2022.10.17-14.34.38:354][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2022.10.17-14.34.38:394][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.10.17-14.34.38:405][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2022.10.17-14.34.38:405][  0]LogInit: Using OS detected language (en-US).
+[2022.10.17-14.34.38:405][  0]LogInit: Using OS detected locale (en-NL).
+[2022.10.17-14.34.38:407][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.10.17-14.34.38:530][  0]LogInit: Setting process to per monitor DPI aware
+[2022.10.17-14.34.38:546][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2022.10.17-14.34.38:546][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2022.10.17-14.34.38:546][  0]LogWindowsTextInputMethodSystem:   - English (United Kingdom) - (Keyboard).
+[2022.10.17-14.34.38:546][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.10.17-14.34.38:564][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.10.17-14.34.38:564][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.10.17-14.34.38:704][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2022.10.17-14.34.38:705][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 is supported.
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2022.10.17-14.34.38:773][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2022.10.17-14.34.38:794][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.10.17-14.34.38:795][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.10.17-14.34.38:797][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.10.17-14.34.38:810][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.10.17-14.34.38:810][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.10.17-14.34.38:870][  0]LogD3D12RHI: AMD hit token extension is supported
+[2022.10.17-14.34.38:870][  0]LogD3D12RHI:     GPU DeviceId: 0x73ff (for the marketing name, search the web for "GPU Device Id")
+[2022.10.17-14.34.38:870][  0]LogWindows: Attached monitors:
+[2022.10.17-14.34.38:870][  0]LogWindows:     resolution: 3840x2160, work area: (1920, 7) -> (5760, 2107), device: '\\.\DISPLAY1'
+[2022.10.17-14.34.38:870][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY2' [PRIMARY]
+[2022.10.17-14.34.38:870][  0]LogWindows: Found 2 attached monitors.
+[2022.10.17-14.34.38:870][  0]LogWindows: EnumDisplayDevices:
+[2022.10.17-14.34.38:870][  0]LogWindows:    0. 'AMD Radeon RX 6600 XT' (P:0 D:1), name: '\\.\DISPLAY1'
+[2022.10.17-14.34.38:871][  0]LogWindows:    1. 'AMD Radeon RX 6600 XT' (P:1 D:1), name: '\\.\DISPLAY2'
+[2022.10.17-14.34.38:871][  0]LogWindows:    2. 'AMD Radeon RX 6600 XT' (P:0 D:0), name: '\\.\DISPLAY3'
+[2022.10.17-14.34.38:871][  0]LogWindows:    3. 'AMD Radeon RX 6600 XT' (P:0 D:0), name: '\\.\DISPLAY4'
+[2022.10.17-14.34.38:872][  0]LogWindows:    4. 'AMD Radeon RX 6600 XT' (P:0 D:0), name: '\\.\DISPLAY5'
+[2022.10.17-14.34.38:872][  0]LogWindows:    5. 'AMD Radeon RX 6600 XT' (P:0 D:0), name: '\\.\DISPLAY6'
+[2022.10.17-14.34.38:872][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2022.10.17-14.34.38:872][  0]LogD3D12RHI:     Adapter Name: AMD Radeon RX 6600 XT
+[2022.10.17-14.34.38:872][  0]LogD3D12RHI:   Driver Version: AMD Software: Adrenalin Edition 22.10.1 (internal:31.0.12019.16007, unified:31.0.12019.16007)
+[2022.10.17-14.34.38:872][  0]LogD3D12RHI:      Driver Date: 10-3-2022
+[2022.10.17-14.34.38:872][  0]LogRHI: Texture pool is 4648 MB (70% of 6640 MB)
+[2022.10.17-14.34.38:872][  0]LogD3D12RHI: Async texture creation enabled
+[2022.10.17-14.34.38:872][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.10.17-14.34.38:892][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/MyFirstFpsGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Intermediate/TurnkeyReport_0.log" -log="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Intermediate/TurnkeyLog_0.log" -project="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/MyFirstFpsGame.uproject"  -platform=all'
+[2022.10.17-14.34.38:892][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""F:/Unreal/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/MyFirstFpsGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Intermediate/TurnkeyReport_0.log" -log="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Intermediate/TurnkeyLog_0.log" -project="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/MyFirstFpsGame.uproject"  -platform=all" ]
+[2022.10.17-14.34.38:909][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2022.10.17-14.34.38:915][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2022.10.17-14.34.38:915][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.10.17-14.34.38:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.10.17-14.34.38:944][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.10.17-14.34.38:944][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.10.17-14.34.38:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.10.17-14.34.38:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.10.17-14.34.38:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.10.17-14.34.38:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.10.17-14.34.38:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.10.17-14.34.38:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.10.17-14.34.38:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.10.17-14.34.38:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.10.17-14.34.38:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.10.17-14.34.38:954][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.10.17-14.34.38:954][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.10.17-14.34.38:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.10.17-14.34.38:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.10.17-14.34.38:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.10.17-14.34.38:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.10.17-14.34.38:958][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2022.10.17-14.34.38:964][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.10.17-14.34.38:966][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2022.10.17-14.34.38:966][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2022.10.17-14.34.38:966][  0]LogTargetPlatformManager:   ADPCM
+[2022.10.17-14.34.38:966][  0]LogTargetPlatformManager:   PCM
+[2022.10.17-14.34.38:968][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2022.10.17-14.34.38:968][  0]LogTargetPlatformManager:   BINKA
+[2022.10.17-14.34.38:968][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2022.10.17-14.34.38:968][  0]LogTargetPlatformManager:   OGG
+[2022.10.17-14.34.38:968][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2022.10.17-14.34.38:968][  0]LogTargetPlatformManager:   OPUS
+[2022.10.17-14.34.38:998][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   SF_METAL
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2022.10.17-14.34.39:002][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2022.10.17-14.34.39:004][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2022.10.17-14.34.39:004][  0]LogTargetPlatformManager:   VVM_1_0
+[2022.10.17-14.34.39:004][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2022.10.17-14.34.39:004][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2022.10.17-14.34.39:004][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2022.10.17-14.34.39:004][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2022.10.17-14.34.39:004][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2022.10.17-14.34.39:005][  0]LogRendererCore: Ray tracing is enabled for the editor. Reason: r.RayTracing=1.
+[2022.10.17-14.34.39:005][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.10.17-14.34.39:005][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.10.17-14.34.39:005][  0]LogShaderCompilers: Display: Compiling shader autogen file: E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.10.17-14.34.39:005][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.10.17-14.34.39:007][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.10.17-14.34.39:007][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2022.10.17-14.34.39:007][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.10.17-14.34.39:007][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2022.10.17-14.34.39:025][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = -2147450730
+[2022.10.17-14.34.39:025][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2022.10.17-14.34.39:025][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.10.17-14.34.39:025][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2022.10.17-14.34.39:032][  0]LogDerivedDataCache: Speed tests for C:/Users/ruben/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.10.17-14.34.39:032][  0]LogDerivedDataCache: Display: Performance to C:/Users/ruben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=1411.83MBs, RandomWriteSpeed=180.19MBs. Assigned SpeedClass 'Local'
+[2022.10.17-14.34.39:033][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ruben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.10.17-14.34.39:033][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.10.17-14.34.39:033][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2022.10.17-14.34.39:037][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2022.10.17-14.34.39:037][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.10.17-14.34.39:038][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Intermediate/Shaders/WorkingDirectory/3324/).
+[2022.10.17-14.34.39:038][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ruben/AppData/Local/Temp/UnrealShaderWorkingDir/49031CB84E461B4D0DEB5FAF1C1E7E57/'.
+[2022.10.17-14.34.39:038][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.10.17-14.34.39:038][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 8 workers.
+[2022.10.17-14.34.40:212][  0]LogSlate: Using FreeType 2.10.0
+[2022.10.17-14.34.40:213][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.10.17-14.34.40:247][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2022.10.17-14.34.40:251][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2022.10.17-14.34.40:400][  0]LogSerialization: UsePackageTrailer: 'false'
+[2022.10.17-14.34.40:400][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2022.10.17-14.34.40:593][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.10.17-14.34.40:593][  0]LogDeviceProfileManager: Active device profile: [0000082421707380][0000082415FC2800 50] WindowsEditor
+[2022.10.17-14.34.40:593][  0]LogDeviceProfileManager: Profiles: [0000082421706E40][0000082415FC7800 50] Windows, [0000082421707380][0000082415FC2800 50] WindowsEditor, [0000082421706AC0][000008241A53C800 50] WindowsServer, [00000824217040C0][0000082415F75000 50] WindowsClient, [0000082421707540][0000082415FC0000 50] IOS, [0000082421703B80][0000082415C4C800 50] iPadAir2, [0000082421707FC0][0000082421A32800 50] IPadPro, [0000082421708340][0000082421A30000 50] iPadAir3, [0000082421706C80][0000082421A37800 50] iPadAir4, [0000082421707E00][0000082421A3A000 50] iPadMini4, [00000824217047C0][0000082421A3C800 50] iPadMini5, [0000082421706580][0000082406E10000 50] iPadMini6, [000008242170A640][0000082421A65000 50] iPhone6S, [000008242170A9C0][0000082421A62800 50] iPhone7, [0000082421706200][0000082421A60000 50] iPodTouch7, [0000082421708F80][0000082421A6A000 50] iPhone6SPlus, [0000082421708180][0000082421A6C800 50] iPhone7Plus, [0000082421703D40][0000082421A35000 50] iPhoneSE, [0000082421705400][0000082421A70000 50] iPhone8, [00000824217063C0][0000082421A75000 50] iPhone8Plus, [0000082421709680][0000082421A77800 50] iPhoneX, [0000082421706040][0000082421A7A000 50] iPhoneXS, [0000082421704600][0000082421A7C800 50] iPhoneXSMax, [0000082421707C40][0000082421A67800 50] iPhoneXR, [0000082421705780][0000082421A80000 50] iPhone11, [0000082421705240][0000082421A85000 50] iPhone11Pro, [00000824217086C0][0000082421A87800 50] iPhone11ProMax, [000008242170A800][0000082421A8A000 50] iPhoneSE2, [0000082421708C00][0000082421A8C800 50] iPhone12Mini, [0000082421704D00][0000082421A72800 50] iPhone12, [0000082421703800][0000082421A90000 50] iPhone12Pro, [00000824217055C0][0000082421A95000 50] iPhone12ProMax, [0000082421708A40][0000082421A97800 50] iPhone13Mini, [0000082421709A00][0000082421A9A000 50] iPhone13, [00000824217094C0][0000082421A9C800 50] iPhone13Pro, [0000082421706740][0000082421A82800 50] iPhone13ProMax, [0000082421704B40][0000082421AB0000 50] iPadPro105, [0000082421701DC0][0000082421AB5000 50] iPadPro129, [000008242170A480][0000082421AB7800 50] iPadPro97, [00000824217078C0][0000082421ABA000 50] iPadPro2_129, [0000082421703F00][0000082421ABC800 50] iPad5, [0000082421705E80][0000082421A92800 50] iPad6, [00000824217071C0][0000082421AC0000 50] iPad7, [0000082421707700][0000082421AC5000 50] iPad8, [0000082421704440][0000082421AC7800 50] iPad9, [0000082421707A80][0000082421ACA000 50] iPadPro11, [0000082421704EC0][0000082421ACC800 50] iPadPro2_11, [0000082421709F40][0000082421AB2800 50] iPadPro3_11, [0000082421704280][0000082421AD0000 50] iPadPro3_129, [0000082421706900][0000082421AD5000 50] iPadPro4_129, [0000082421702F40][0000082421AD7800 50] iPadPro5_129, [0000082421703480][0000082421ADA000 50] AppleTV, [0000082421708880][0000082421ADC800 50] AppleTV4K, [0000082421705940][0000082421AC2800 50] TVOS, [000008242170CE80][0000082421AE2800 50] Mac, [000008242170D200][0000082421AE0000 50] MacEditor, [000008242170D3C0][0000082421AE7800 50] MacClient, [000008242170B980][0000082421AEA000 50] MacServer, [000008242170CB00][0000082421AD2800 50] Linux, [0000082421702140][0000082421AEC800 50] LinuxEditor, [0000082421703100][0000082421AF0000 50] LinuxArm64Editor, [0000082421708DC0][0000082421AF5000 50] LinuxArm64, [000008242170C940][0000082421AF7800 50] LinuxClient, [000008242170AB80][0000082421AFA000 50] LinuxArm64Client, [000008242170C400][0000082421AFC800 50] LinuxServer, [0000082421705080][0000082421AE5000 50] LinuxArm64Server, [000008242170BB40][0000082421B00000 50] Android, [000008242170D580][0000082421B05000 50] Android_Preview_OpenGL, [000008242170D040][0000082421B07800 50] Android_Preview_Vulkan, [000008242170D900][0000082421B0A000 50] Android_Low, [000008242170C240][0000082421B0C800 50] Android_Mid, [000008242170DAC0][0000082421AF2800 50] Android_High, [000008242170C080][0000082421B10000 50] Android_Default, [000008242170B600][0000082421B15000 50] Android_Adreno4xx, [0000082421708500][0000082421B17800 50] Android_Adreno5xx_Low, [000008242170AF00][0000082421B1A000 50] Android_Adreno5xx, [000008242170A100][0000082421B1C800 50] Android_Adreno6xx, [0000082421705CC0][0000082421B02800 50] Android_Adreno6xx_Vulkan, [000008242170B0C0][0000082421B20000 50] Android_Adreno7xx, [000008242170B440][0000082421B25000 50] Android_Adreno7xx_Vulkan, [00000824217032C0][0000082421B27800 50] Android_Mali_T6xx, [0000082421705B00][0000082421B2A000 50] Android_Mali_T7xx, [000008242170E700][0000082421B2C800 50] Android_Mali_T8xx, [0000082421704980][0000082421B12800 50] Android_Mali_G71, [0000082421709BC0][0000082421B30000 50] Android_Mali_G72, [000008242170B7C0][0000082421B35000 50] Android_Mali_G72_Vulkan, [000008242170A2C0][0000082421B37800 50] Android_Mali_G76, [000008242170E380][0000082421B3A000 50] Android_Mali_G76_Vulkan, [000008242170E540][0000082421B3C800 50] Android_Mali_G77, [0000082421709840][0000082421B22800 50] Android_Mali_G77_Vulkan, [000008242170AD40][0000082421B40000 50] Android_Mali_G78, [000008242170F6C0][0000082421B45000 50] Android_Mali_G78_Vulkan, [000008242170C780][0000082421B47800 50] Android_Mali_G710, [000008242170E1C0][0000082421B4A000 50] Android_Mali_G710_Vulkan, [0000082421709300][0000082421B4C800 50] Android_Xclipse_920, [000008242170EA80][0000082421B32800 50] Android_Xclipse_920_Vulkan, [000008242170F340][0000082421B50000 50] Android_Vulkan_SM5, [000008242170F500][0000082421B55000 50] Android_PowerVR_G6xxx, [000008242170D740][0000082421B57800 50] Android_PowerVR_GT7xxx, [0000082421709140][0000082421B5A000 50] Android_PowerVR_GE8xxx, [000008242170DE40][0000082421B5C800 50] Android_PowerVR_GM9xxx, [0000082421B60000][0000082421B42800 50] Android_PowerVR_GM9xxx_Vulkan, [0000082421B62300][0000082421B70000 50] Android_TegraK1, [0000082421B60E00][0000082421B75000 50] Android_Unknown_Vulkan, [0000082421B608C0][0000082421B77800 50] Oculus_Quest, [0000082421B60700][0000082421B7A000 50] Oculus_Quest2, [0000082421B60540][0000082421B7C800 50] HoloLens, 
+[2022.10.17-14.34.40:593][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.10.17-14.34.40:611][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2022.10.17-14.34.40:779][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.10.17-14.34.40:779][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.10.17-14.34.40:779][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.10.17-14.34.40:779][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.10.17-14.34.40:779][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.10.17-14.34.40:795][  0]LogNetVersion: MyFirstFpsGame 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 4013420189)
+[2022.10.17-14.34.40:909][  0]LogSlate: Border
+[2022.10.17-14.34.40:909][  0]LogSlate: BreadcrumbButton
+[2022.10.17-14.34.40:909][  0]LogSlate: Default
+[2022.10.17-14.34.40:909][  0]LogSlate: Icons.Save
+[2022.10.17-14.34.40:909][  0]LogSlate: Icons.Toolbar.Settings
+[2022.10.17-14.34.40:909][  0]LogSlate: ListView
+[2022.10.17-14.34.40:909][  0]LogSlate: SoftwareCursor_CardinalCross
+[2022.10.17-14.34.40:909][  0]LogSlate: SoftwareCursor_Grab
+[2022.10.17-14.34.40:909][  0]LogSlate: TableView.DarkRow
+[2022.10.17-14.34.40:909][  0]LogSlate: TableView.Row
+[2022.10.17-14.34.40:909][  0]LogSlate: TreeView
+[2022.10.17-14.34.41:053][  0]SourceControl: Source control is disabled
+[2022.10.17-14.34.41:080][  0]SourceControl: Source control is disabled
+[2022.10.17-14.34.41:080][  0]SourceControl: Source control is disabled
+[2022.10.17-14.34.41:188][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2022.10.17-14.34.41:188][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2022.10.17-14.34.41:188][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.10.17-14.34.41:347][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 7C2D683F4C0F3096F7515082367FDE98 | Instance: 6545A065438E8C1CFFE11CA637C5D010 (RGB-GEBRUIKER-3324).
+[2022.10.17-14.34.41:514][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.10.17-14.34.41:517][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.10.17-14.34.41:532][  0]LogPython: Using Python 3.9.7
+[2022.10.17-14.34.42:379][  0]SourceControl: Source control is disabled
+[2022.10.17-14.34.42:461][  0]SourceControl: Source control is disabled
+[2022.10.17-14.34.42:463][  0]SourceControl: Source control is disabled
+[2022.10.17-14.34.42:480][  0]LogUProjectInfo: Found projects:
+[2022.10.17-14.34.42:549][  0]LogOpenImageDenoise: OIDN starting up
+[2022.10.17-14.34.42:574][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.10.17-14.34.42:591][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.10.17-14.34.42:591][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.10.17-14.34.42:665][  0]LogCollectionManager: Loaded 0 collections in 0.000748 seconds
+[2022.10.17-14.34.42:729][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Collections/' took 0.00s
+[2022.10.17-14.34.42:729][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/Developers/ruben/Collections/' took 0.00s
+[2022.10.17-14.34.42:729][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/Collections/' took 0.00s
+[2022.10.17-14.34.42:961][  0]LogEngine: Initializing Engine...
+[2022.10.17-14.34.42:973][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2022.10.17-14.34.42:974][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.10.17-14.34.43:220][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.10.17-14.34.43:221][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.17-14.34.43:231][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.17-14.34.43:257][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.10.17-14.34.43:258][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.10.17-14.34.43:278][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.10.17-14.34.43:279][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.10.17-14.34.43:279][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.10.17-14.34.43:279][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.10.17-14.34.43:279][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.10.17-14.34.43:279][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.17-14.34.43:279][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.17-14.34.43:279][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.17-14.34.43:279][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.17-14.34.43:279][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.17-14.34.43:279][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.17-14.34.43:279][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.17-14.34.43:279][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.17-14.34.43:279][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.17-14.34.43:279][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.17-14.34.43:279][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.17-14.34.43:285][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.17-14.34.43:331][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2022.10.17-14.34.43:331][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.17-14.34.43:333][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.17-14.34.43:333][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.17-14.34.43:333][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.10.17-14.34.43:333][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.10.17-14.34.43:335][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.10.17-14.34.43:335][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.10.17-14.34.43:335][  0]LogInit: FAudioDevice initialized.
+[2022.10.17-14.34.43:335][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.10.17-14.34.43:335][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.10.17-14.34.43:335][  0]LogInit: Texture streaming: Enabled
+[2022.10.17-14.34.43:365][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2022.10.17-14.34.43:373][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.10.17-14.34.43:406][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.10.17-14.34.43:412][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.10.17-14.34.43:412][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2022.10.17-14.34.43:960][  0]LogLiveCoding: Display: First instance in process group "UE_MyFirstFpsGame_0x698ab019", spawning console
+[2022.10.17-14.34.43:960][  0]LogLiveCoding: Display: Waiting for server
+[2022.10.17-14.34.43:961][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.10.17-14.34.43:986][  0]LogInit: Transaction tracking system initialized
+[2022.10.17-14.34.44:058][  0]BlueprintLog: New page: Editor Load
+[2022.10.17-14.34.44:237][  0]LocalizationService: Localization service is disabled
+[2022.10.17-14.34.44:282][  0]TimingProfiler: Initialize
+[2022.10.17-14.34.44:282][  0]TimingProfiler: OnSessionChanged
+[2022.10.17-14.34.44:282][  0]LoadingProfiler: Initialize
+[2022.10.17-14.34.44:282][  0]LoadingProfiler: OnSessionChanged
+[2022.10.17-14.34.44:282][  0]NetworkingProfiler: Initialize
+[2022.10.17-14.34.44:282][  0]NetworkingProfiler: OnSessionChanged
+[2022.10.17-14.34.44:282][  0]MemoryProfiler: Initialize
+[2022.10.17-14.34.44:282][  0]MemoryProfiler: OnSessionChanged
+[2022.10.17-14.34.44:859][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/' took 0.01s
+[2022.10.17-14.34.44:859][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.10.17-14.34.44:933][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.10.17-14.34.44:934][  0]SourceControl: Source control is disabled
+[2022.10.17-14.34.44:934][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.527
+[2022.10.17-14.34.44:934][  0]Cmd: MAP LOAD FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/FirstPerson/Maps/FirstPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.17-14.34.44:935][  0]LightingResults: New page: Lighting Build
+[2022.10.17-14.34.44:941][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.10.17-14.34.44:941][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.17-14.34.44:941][  0]MapCheck: New page: Map Check
+[2022.10.17-14.34.44:941][  0]LightingResults: New page: Lighting Build
+[2022.10.17-14.34.44:945][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.17-14.34.44:948][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.10.17-14.34.45:073][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2022.10.17-14.34.45:079][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.17-14.34.45:079][  0]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.10.17-14.34.45:079][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.10.17-14.34.45:079][  0]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.10.17-14.34.45:213][  0]LogWorldPartition: Display: WorldPartition initialize took 133 ms
+[2022.10.17-14.34.45:217][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.17-14.34.45:223][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.10.17-14.34.45:224][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.17-14.34.45:224][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,215ms to complete.
+[2022.10.17-14.34.45:224][  0]LogFileHelpers: Loading map 'FirstPersonMap' took 0.289
+[2022.10.17-14.34.45:234][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.826
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: ================================================
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.10.17-14.34.45:234][  0]LogShaderCompilers: Display: ================================================
+[2022.10.17-14.34.45:343][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.10.17-14.34.45:343][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.10.17-14.34.45:343][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.10.17-14.34.45:343][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.10.17-14.34.45:343][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.10.17-14.34.45:343][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.10.17-14.34.45:343][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.10.17-14.34.45:350][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.17-14.34.45:354][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.17-14.34.45:358][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.17-14.34.45:362][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.17-14.34.45:376][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:376][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:377][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:377][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:377][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:377][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:378][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:378][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:378][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:378][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:379][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:379][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:379][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:379][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:379][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:379][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:380][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:380][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:380][  0]LogPakFile: Display: Mounted Pak file 'F:/Unreal/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.10.17-14.34.45:380][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.10.17-14.34.45:380][  0]LogFeaturePack: Error: Error in Feature pack F:/Unreal/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.10.17-14.34.45:539][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.10.17-14.34.45:541][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.10.17-14.34.45:542][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.10.17-14.34.45:543][  0]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.10.17-14.34.45:544][  0]LogSlate: Took 0.000065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.10.17-14.34.45:559][  0]LogViewport: Scene viewport resized to 1431x535, mode Windowed.
+[2022.10.17-14.34.45:610][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.17-14.34.47:459][  0]LogStall: Startup...
+[2022.10.17-14.34.47:460][  0]LogStall: Startup complete.
+[2022.10.17-14.34.47:512][  0]LogLoad: (Engine Initialization) Total time: 10.10 seconds
+[2022.10.17-14.34.47:512][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.10.17-14.34.47:553][  0]LogAssetRegistry: Asset discovery search completed in 7.3072 seconds
+[2022.10.17-14.34.47:558][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.10.17-14.34.47:559][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.10.17-14.34.47:750][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/' took 0.20s
+[2022.10.17-14.34.50:580][169]AssetReimport: New page: Outstanding source content changes 18:34:50
+[2022.10.17-14.34.50:583][169]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.17-14.34.50:609][170]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/flower/leaf.tif)
+[2022.10.17-14.34.50:612][170]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/flower/More_Inner_LeavesBump.jpg)
+[2022.10.17-14.34.50:623][170]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/flower/Rose.obj)
+[2022.10.17-14.34.50:654][170]LogFbx: Loading FBX Scene from E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/flower/Rose.obj
+[2022.10.17-14.34.51:147][170]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.17-14.35.06:938][170]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.10.17-14.35.06:964][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Cap_1.Rose_Cap_1
+[2022.10.17-14.35.06:973][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Cap_1_2.Rose_Cap_1_2
+[2022.10.17-14.35.06:980][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Cap_1_3.Rose_Cap_1_3
+[2022.10.17-14.35.06:987][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Cap_2.Rose_Cap_2
+[2022.10.17-14.35.06:995][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Cap_2_2.Rose_Cap_2_2
+[2022.10.17-14.35.07:002][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Cap_2_3.Rose_Cap_2_3
+[2022.10.17-14.35.07:091][170]LogStaticMesh: Built static mesh [0.01s] /Game/flower/Rose_Capsule.Rose_Capsule
+[2022.10.17-14.35.07:173][170]LogStaticMesh: Built static mesh [0.01s] /Game/flower/Rose_Capsule_3.Rose_Capsule_3
+[2022.10.17-14.35.07:254][170]LogStaticMesh: Built static mesh [0.01s] /Game/flower/Rose_Capsule_5.Rose_Capsule_5
+[2022.10.17-14.35.07:338][170]LogStaticMesh: Built static mesh [0.01s] /Game/flower/Rose_Capsule_7.Rose_Capsule_7
+[2022.10.17-14.35.07:368][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Capsule_9.Rose_Capsule_9
+[2022.10.17-14.35.07:448][170]LogStaticMesh: Built static mesh [0.01s] /Game/flower/Rose_Leaf_11.Rose_Leaf_11
+[2022.10.17-14.35.07:531][170]LogStaticMesh: Built static mesh [0.01s] /Game/flower/Rose_Leaf_2.Rose_Leaf_2
+[2022.10.17-14.35.07:612][170]LogStaticMesh: Built static mesh [0.01s] /Game/flower/Rose_Leaf_5.Rose_Leaf_5
+[2022.10.17-14.35.07:694][170]LogStaticMesh: Built static mesh [0.01s] /Game/flower/Rose_Leaf_8.Rose_Leaf_8
+[2022.10.17-14.35.07:736][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Leaf_Bottom_11.Rose_Leaf_Bottom_11
+[2022.10.17-14.35.07:778][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Leaf_Bottom_2.Rose_Leaf_Bottom_2
+[2022.10.17-14.35.07:819][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Leaf_Bottom_5.Rose_Leaf_Bottom_5
+[2022.10.17-14.35.07:861][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Leaf_Bottom_8.Rose_Leaf_Bottom_8
+[2022.10.17-14.35.07:906][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Leave.Rose_Leave
+[2022.10.17-14.35.07:947][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Leave_3.Rose_Leave_3
+[2022.10.17-14.35.07:987][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Leave_5.Rose_Leave_5
+[2022.10.17-14.35.08:023][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_More_Inner_Leaves.Rose_More_Inner_Leaves
+[2022.10.17-14.35.08:060][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Most_Inner_Leaves.Rose_Most_Inner_Leaves
+[2022.10.17-14.35.08:097][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Stipe.Rose_Stipe
+[2022.10.17-14.35.08:143][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Stipe_1.Rose_Stipe_1
+[2022.10.17-14.35.08:187][170]LogStaticMesh: Built static mesh [0.00s] /Game/flower/Rose_Stipe_2.Rose_Stipe_2
+[2022.10.17-14.35.08:344][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.10.17-14.35.08:347][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/leaf" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/flower/leaf.uasset" SILENT=true
+[2022.10.17-14.35.08:351][171]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.003063 seconds
+[2022.10.17-14.35.08:356][171]LogSavePackage: Moving output files for package: /Game/flower/leaf
+[2022.10.17-14.35.08:356][171]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/leaf828C54334AD23002CE19328BA2EA2729.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/flower/leaf.uasset'
+[2022.10.17-14.35.08:359][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/More_Inner_LeavesBump" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/flower/More_Inner_LeavesBump.uasset" SILENT=true
+[2022.10.17-14.35.08:360][171]LogSavePackage: Moving output files for package: /Game/flower/More_Inner_LeavesBump
+[2022.10.17-14.35.08:360][171]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/More_Inner_LeavesBump5924647F4AC4440313FF0BA009926804.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/flower/More_Inner_LeavesBump.uasset'
+[2022.10.17-14.35.08:378][172]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.17-14.35.08:378][172]LogContentValidation: Display: Validating Texture2D /Game/flower/leaf.leaf
+[2022.10.17-14.35.08:378][172]LogContentValidation: Display: Validating Texture2D /Game/flower/More_Inner_LeavesBump.More_Inner_LeavesBump
+[2022.10.17-14.35.11:384][343]AssetReimport: Importing new asset /Game/flower/leaf.
+[2022.10.17-14.35.11:384][343]AssetReimport: Importing new asset /Game/flower/More_Inner_LeavesBump.
+[2022.10.17-14.35.11:384][343]AssetReimport: Importing new asset /Game/flower/Rose.
+[2022.10.17-14.36.39:396][439]LogDerivedDataCache: C:/Users/ruben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.362 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.17-14.36.50:623][541]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Main/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.10.17-14.36.50:623][541]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.17-14.36.51:552][541]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.10.17-14.37.11:458][542]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/_Main/Character/Arms.Arms
+[2022.10.17-14.37.11:471][542]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.17-14.37.11:511][542]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.10.17-14.37.12:001][542]LogViewport: Scene viewport resized to 738x730, mode Windowed.
+[2022.10.17-14.37.13:725][624]LogViewport: Scene viewport resized to 736x753, mode Windowed.
+[2022.10.17-14.37.13:768][625]LogViewport: Scene viewport resized to 1141x866, mode Windowed.
+[2022.10.17-14.37.14:263][677]LogSlate: Window 'Arms' being destroyed
+[2022.10.17-14.38.03:426][ 34]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/FirstPersonArms/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP
+[2022.10.17-14.38.03:426][ 34]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.17-14.38.03:436][ 34]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.17-14.38.03:448][ 34]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.10.17-14.38.03:917][ 34]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.17-14.38.04:040][ 34]LogViewport: Scene viewport resized to 476x413, mode Windowed.
+[2022.10.17-14.38.04:090][ 34]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2022.10.17-14.45.05:533][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.10.17-14.45.05:535][896]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.059
+[2022.10.17-14.45.05:535][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Cap_1] ([1] browsable assets)...
+[2022.10.17-14.45.05:591][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Cap_1.Rose_Cap_1]
+[2022.10.17-14.45.05:591][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Cap_1]
+[2022.10.17-14.45.05:591][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Cap_1" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:593][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Cap_1_Auto1
+[2022.10.17-14.45.05:593][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Cap_1_Auto185BE403648AA950A442EA59D0F9F5210.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_1_Auto1.uasset'
+[2022.10.17-14.45.05:594][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Cap_1_2] ([1] browsable assets)...
+[2022.10.17-14.45.05:605][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Cap_1_2.Rose_Cap_1_2]
+[2022.10.17-14.45.05:605][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Cap_1_2]
+[2022.10.17-14.45.05:605][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Cap_1_2" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_1_2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:607][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Cap_1_2_Auto1
+[2022.10.17-14.45.05:607][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Cap_1_2_Auto1178F19EA45324985128CE18A1861B177.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_1_2_Auto1.uasset'
+[2022.10.17-14.45.05:607][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Cap_1_3] ([1] browsable assets)...
+[2022.10.17-14.45.05:618][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Cap_1_3.Rose_Cap_1_3]
+[2022.10.17-14.45.05:618][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Cap_1_3]
+[2022.10.17-14.45.05:618][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Cap_1_3" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_1_3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:620][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Cap_1_3_Auto1
+[2022.10.17-14.45.05:620][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Cap_1_3_Auto186BAF5F8421F23AFC9B394A7245F06E9.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_1_3_Auto1.uasset'
+[2022.10.17-14.45.05:621][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Cap_2] ([1] browsable assets)...
+[2022.10.17-14.45.05:632][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Cap_2.Rose_Cap_2]
+[2022.10.17-14.45.05:632][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Cap_2]
+[2022.10.17-14.45.05:632][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Cap_2" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:634][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Cap_2_Auto1
+[2022.10.17-14.45.05:635][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Cap_2_Auto19AF57FA84CB82279B2600FA64D59DB72.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_2_Auto1.uasset'
+[2022.10.17-14.45.05:635][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Cap_2_2] ([1] browsable assets)...
+[2022.10.17-14.45.05:647][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Cap_2_2.Rose_Cap_2_2]
+[2022.10.17-14.45.05:647][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Cap_2_2]
+[2022.10.17-14.45.05:647][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Cap_2_2" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_2_2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:649][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Cap_2_2_Auto1
+[2022.10.17-14.45.05:649][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Cap_2_2_Auto1F5B0F30348133DAF8E75F7952AED1DCF.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_2_2_Auto1.uasset'
+[2022.10.17-14.45.05:649][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Cap_2_3] ([1] browsable assets)...
+[2022.10.17-14.45.05:661][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Cap_2_3.Rose_Cap_2_3]
+[2022.10.17-14.45.05:661][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Cap_2_3]
+[2022.10.17-14.45.05:661][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Cap_2_3" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_2_3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:663][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Cap_2_3_Auto1
+[2022.10.17-14.45.05:663][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Cap_2_3_Auto194D5D98843B06F93552603922D545C6A.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Cap_2_3_Auto1.uasset'
+[2022.10.17-14.45.05:679][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Capsule] ([1] browsable assets)...
+[2022.10.17-14.45.05:691][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Capsule.Rose_Capsule]
+[2022.10.17-14.45.05:691][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Capsule]
+[2022.10.17-14.45.05:691][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Capsule" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:707][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Capsule_Auto1
+[2022.10.17-14.45.05:707][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Capsule_Auto1309CF31A46AADB4FAD8524BB6C5551EC.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_Auto1.uasset'
+[2022.10.17-14.45.05:707][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Capsule_3] ([1] browsable assets)...
+[2022.10.17-14.45.05:719][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Capsule_3.Rose_Capsule_3]
+[2022.10.17-14.45.05:719][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Capsule_3]
+[2022.10.17-14.45.05:719][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Capsule_3" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:722][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Capsule_3_Auto1
+[2022.10.17-14.45.05:722][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Capsule_3_Auto1E71ABDBE47813DB3DB6ED9B1E0B6DB17.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_3_Auto1.uasset'
+[2022.10.17-14.45.05:723][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Capsule_5] ([1] browsable assets)...
+[2022.10.17-14.45.05:734][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Capsule_5.Rose_Capsule_5]
+[2022.10.17-14.45.05:734][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Capsule_5]
+[2022.10.17-14.45.05:734][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Capsule_5" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_5_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:737][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Capsule_5_Auto1
+[2022.10.17-14.45.05:737][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Capsule_5_Auto19D890D2441CFFC0772C68FA4A7F44F8F.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_5_Auto1.uasset'
+[2022.10.17-14.45.05:738][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Capsule_7] ([1] browsable assets)...
+[2022.10.17-14.45.05:749][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Capsule_7.Rose_Capsule_7]
+[2022.10.17-14.45.05:749][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Capsule_7]
+[2022.10.17-14.45.05:749][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Capsule_7" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_7_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:752][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Capsule_7_Auto1
+[2022.10.17-14.45.05:752][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Capsule_7_Auto155CA5E5044A078AF4C43C9B24282C5F6.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_7_Auto1.uasset'
+[2022.10.17-14.45.05:753][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Capsule_9] ([1] browsable assets)...
+[2022.10.17-14.45.05:765][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Capsule_9.Rose_Capsule_9]
+[2022.10.17-14.45.05:765][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Capsule_9]
+[2022.10.17-14.45.05:765][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Capsule_9" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_9_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:767][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Capsule_9_Auto1
+[2022.10.17-14.45.05:767][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Capsule_9_Auto1D089EF624101EF74CBBA0E81683EB9EB.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Capsule_9_Auto1.uasset'
+[2022.10.17-14.45.05:768][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leaf_11] ([1] browsable assets)...
+[2022.10.17-14.45.05:778][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leaf_11.Rose_Leaf_11]
+[2022.10.17-14.45.05:779][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leaf_11]
+[2022.10.17-14.45.05:779][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Leaf_11" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_11_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:782][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leaf_11_Auto1
+[2022.10.17-14.45.05:782][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leaf_11_Auto143456DFE4CC1B2352269CF9009C4CD81.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_11_Auto1.uasset'
+[2022.10.17-14.45.05:782][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leaf_2] ([1] browsable assets)...
+[2022.10.17-14.45.05:793][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leaf_2.Rose_Leaf_2]
+[2022.10.17-14.45.05:793][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leaf_2]
+[2022.10.17-14.45.05:793][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Leaf_2" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:796][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leaf_2_Auto1
+[2022.10.17-14.45.05:796][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leaf_2_Auto1AEB7BF724DF468A98EE278ADD65C5A82.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_2_Auto1.uasset'
+[2022.10.17-14.45.05:797][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leaf_5] ([1] browsable assets)...
+[2022.10.17-14.45.05:807][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leaf_5.Rose_Leaf_5]
+[2022.10.17-14.45.05:807][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leaf_5]
+[2022.10.17-14.45.05:807][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Leaf_5" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_5_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:810][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leaf_5_Auto1
+[2022.10.17-14.45.05:810][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leaf_5_Auto18BF046BA4C634B17344B4DAEBCC3872F.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_5_Auto1.uasset'
+[2022.10.17-14.45.05:811][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leaf_8] ([1] browsable assets)...
+[2022.10.17-14.45.05:823][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leaf_8.Rose_Leaf_8]
+[2022.10.17-14.45.05:823][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leaf_8]
+[2022.10.17-14.45.05:823][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Leaf_8" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_8_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:826][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leaf_8_Auto1
+[2022.10.17-14.45.05:826][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leaf_8_Auto1635863684D5FA07A3772B09C31FF6E9E.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_8_Auto1.uasset'
+[2022.10.17-14.45.05:827][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leaf_Bottom_11] ([1] browsable assets)...
+[2022.10.17-14.45.05:838][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leaf_Bottom_11.Rose_Leaf_Bottom_11]
+[2022.10.17-14.45.05:838][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leaf_Bottom_11]
+[2022.10.17-14.45.05:840][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leaf_Bottom_11_Auto1
+[2022.10.17-14.45.05:840][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leaf_Bottom_11_Auto1B36868B84CC55D59812D0B9E0D50B0D0.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_Bottom_11_Auto1.uasset'
+[2022.10.17-14.45.05:841][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leaf_Bottom_2] ([1] browsable assets)...
+[2022.10.17-14.45.05:853][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leaf_Bottom_2.Rose_Leaf_Bottom_2]
+[2022.10.17-14.45.05:853][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leaf_Bottom_2]
+[2022.10.17-14.45.05:859][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leaf_Bottom_2_Auto1
+[2022.10.17-14.45.05:859][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leaf_Bottom_2_Auto1F213B2544CE210790E9A82BE780F8ADF.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_Bottom_2_Auto1.uasset'
+[2022.10.17-14.45.05:859][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leaf_Bottom_5] ([1] browsable assets)...
+[2022.10.17-14.45.05:872][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leaf_Bottom_5.Rose_Leaf_Bottom_5]
+[2022.10.17-14.45.05:872][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leaf_Bottom_5]
+[2022.10.17-14.45.05:875][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leaf_Bottom_5_Auto1
+[2022.10.17-14.45.05:875][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leaf_Bottom_5_Auto19DD0BBEC4147DC16B05F22B66F651437.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_Bottom_5_Auto1.uasset'
+[2022.10.17-14.45.05:875][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leaf_Bottom_8] ([1] browsable assets)...
+[2022.10.17-14.45.05:887][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leaf_Bottom_8.Rose_Leaf_Bottom_8]
+[2022.10.17-14.45.05:887][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leaf_Bottom_8]
+[2022.10.17-14.45.05:890][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leaf_Bottom_8_Auto1
+[2022.10.17-14.45.05:890][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leaf_Bottom_8_Auto1410B22BD4C050F712F737A8AD159BC9D.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leaf_Bottom_8_Auto1.uasset'
+[2022.10.17-14.45.05:890][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leave] ([1] browsable assets)...
+[2022.10.17-14.45.05:902][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leave.Rose_Leave]
+[2022.10.17-14.45.05:902][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leave]
+[2022.10.17-14.45.05:902][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Leave" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leave_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:933][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leave_Auto1
+[2022.10.17-14.45.05:933][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leave_Auto15F85454A479D9A6981719CB3566CBB64.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leave_Auto1.uasset'
+[2022.10.17-14.45.05:933][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leave_3] ([1] browsable assets)...
+[2022.10.17-14.45.05:944][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leave_3.Rose_Leave_3]
+[2022.10.17-14.45.05:944][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leave_3]
+[2022.10.17-14.45.05:944][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Leave_3" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leave_3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:947][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leave_3_Auto1
+[2022.10.17-14.45.05:947][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leave_3_Auto10A2E07BD4A58DF4CEE1C0582D8AFF484.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leave_3_Auto1.uasset'
+[2022.10.17-14.45.05:947][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Leave_5] ([1] browsable assets)...
+[2022.10.17-14.45.05:958][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Leave_5.Rose_Leave_5]
+[2022.10.17-14.45.05:958][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Leave_5]
+[2022.10.17-14.45.05:958][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Leave_5" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leave_5_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.05:961][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Leave_5_Auto1
+[2022.10.17-14.45.05:961][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Leave_5_Auto1CE98DB4649AB077CBF504DAB8D7662D5.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Leave_5_Auto1.uasset'
+[2022.10.17-14.45.05:961][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_More_Inner_Leaves] ([1] browsable assets)...
+[2022.10.17-14.45.05:972][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_More_Inner_Leaves.Rose_More_Inner_Leaves]
+[2022.10.17-14.45.05:972][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_More_Inner_Leaves]
+[2022.10.17-14.45.05:975][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_More_Inner_Leaves_Auto1
+[2022.10.17-14.45.05:975][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_More_Inner_Leaves_Auto12DD11BBC46591EEE85EECBA3A6EA8849.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_More_Inner_Leaves_Auto1.uasset'
+[2022.10.17-14.45.05:975][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Most_Inner_Leaves] ([1] browsable assets)...
+[2022.10.17-14.45.05:987][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Most_Inner_Leaves.Rose_Most_Inner_Leaves]
+[2022.10.17-14.45.05:987][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Most_Inner_Leaves]
+[2022.10.17-14.45.05:990][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Most_Inner_Leaves_Auto1
+[2022.10.17-14.45.05:990][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Most_Inner_Leaves_Auto12454DD24442163EAF24712A5FDFDD84E.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Most_Inner_Leaves_Auto1.uasset'
+[2022.10.17-14.45.05:990][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Stipe] ([1] browsable assets)...
+[2022.10.17-14.45.06:002][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Stipe.Rose_Stipe]
+[2022.10.17-14.45.06:002][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Stipe]
+[2022.10.17-14.45.06:002][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Stipe" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Stipe_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.06:004][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Stipe_Auto1
+[2022.10.17-14.45.06:004][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Stipe_Auto17527D11D4365FECC870DA3BB86753C43.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Stipe_Auto1.uasset'
+[2022.10.17-14.45.06:005][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Stipe_1] ([1] browsable assets)...
+[2022.10.17-14.45.06:018][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Stipe_1.Rose_Stipe_1]
+[2022.10.17-14.45.06:018][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Stipe_1]
+[2022.10.17-14.45.06:018][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Stipe_1" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Stipe_1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.06:020][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Stipe_1_Auto1
+[2022.10.17-14.45.06:020][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Stipe_1_Auto19829976440A2F57327B3E6924A626FE7.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Stipe_1_Auto1.uasset'
+[2022.10.17-14.45.06:021][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/flower/Rose_Stipe_2] ([1] browsable assets)...
+[2022.10.17-14.45.06:033][896]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/flower/Rose_Stipe_2.Rose_Stipe_2]
+[2022.10.17-14.45.06:033][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/flower/Rose_Stipe_2]
+[2022.10.17-14.45.06:033][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/flower/Rose_Stipe_2" FILE="E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Stipe_2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.10.17-14.45.06:035][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/flower/Rose_Stipe_2_Auto1
+[2022.10.17-14.45.06:035][896]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Rose_Stipe_2_Auto170D74578418A72928E8E4E84E6510175.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/Autosaves/Game/flower/Rose_Stipe_2_Auto1.uasset'
+[2022.10.17-14.45.06:036][896]LogFileHelpers: Auto-saving content packages took 0.500
+[2022.10.17-14.46.01:377][ 62]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2022.10.17-14.46.01:377][ 62]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2022.10.17-14.46.48:136][589]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.17-14.47.00:767][942]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.10.17-14.47.00:835][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.10.17-14.47.00:928][943]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.17-14.47.01:636][ 11]LogSavePackage: Moving output files for package: /Game/_Main/Blueprints/BP_FirstPersonCharacter
+[2022.10.17-14.47.01:637][ 11]LogSavePackage: Moving 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Saved/BP_FirstPersonCharacter1C2C11734EE8469B90A4B9BC77C294B8.tmp' to 'E:/Unreal projects/Unreal5_shootertest/MyFirstFpsGame/Content/_Main/Blueprints/BP_FirstPersonCharacter.uasset'
+[2022.10.17-14.47.01:649][ 11]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2022.10.17-14.47.01:649][ 11]LogContentValidation: Display: Validating Blueprint /Game/_Main/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.10.17-15.10.17:236][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.10.17-15.10.20:910][  4]LogSlate: Window 'Save Content' being destroyed
